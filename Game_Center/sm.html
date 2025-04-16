@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="my pj/img/game-console.png" type="image/png">
+
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+    <link rel="stylesheet" href="sm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="window">
+    <div id="header">
+      <div id="left">
+        <a href="/gs.html"><button id="hb" type="button" class="nes-btn is-error">BACK</button></a>
+      </div>
+      <div id="mid"><div id="top" class="nes-container with-title is-centered">
+        <h1>INVERCADE</h1>
+              </div>
+            </div>
+      <div id="right"><a href="/index.html"><button id="hb" type="button" class="nes-btn is-primary">HOME</button></a></div>
+    </div>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="win" class="nes-container is-dark with-title">
+        <p class="title">ARCADE</p>
+        <div id="game-container">
+            <div id='game'></div>
+        </div>
+        <script type='text/javascript'>
+     
+            EJS_player = '#game';
+            EJS_core = 'nds';
+            EJS_gameUrl = 'nsm.nds'; 
+            EJS_pathtodata = 'https://cdn.jsdelivr.net/npm/@emulatorjs/emulatorjs@4.2.1/data/';
+         
+        </script>
+        <script src='https://cdn.jsdelivr.net/npm/@emulatorjs/emulatorjs@4.2.1/data/loader.min.js'></script>
+      </div>
+  </div>
+</body>
+</html>

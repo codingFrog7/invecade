@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+font-family:Press Start 2P;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#header{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left{  height: 100%;
+    width: 30%;
+    display: flex;
+   justify-content: start;
+    align-items: center;
+    padding: 30px;
+}
+
+#mid{
+    height: 100%;
+    width: 50%;
+ 
+}
+
+#right{ 
+    height: 100%;
+    width: 30%;
+display: flex;
+   justify-content: end;
+    align-items: center;
+    padding: 30px;
+}
+#window{
+     height: 100%;
+    width: 100%;
+    background-color :#6FD0EF;
+     display: flex;
+    justify-content: space-between;}
+#box1{
+    height: 100%;
+    width: 50%;
+    background-color :#6FD0EF;
+    
+}
+#box2{
+    height: 100%;
+    width: 50%;
+    background-color :crimson;
+    
+}
+#win{ position: absolute;
+    top: 15%;
+    left: 25%;
+    height: 70%;
+    width: 50%;}
+    #top{
+       
+        background-color: white;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+#game-container{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    width: 95%;
+    height :95%;
+    background-color: white;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+   
+    

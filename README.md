@@ -1,31 +1,42 @@
-<h1 align="center">🎮 Invecade</h1>
+# 🚀 Invecade
 
-<p align="center">
-  A fast-paced browser arcade game built with HTML, CSS & JavaScript.<br />
-  Relive the classic arcade experience right in your browser!
-</p>
+**Invecade** is a retro-style arcade space shooter game made with HTML, CSS, and JavaScript.  
+Dodge enemies, shoot invaders, and rack up your high score — right in your browser!
 
-<p align="center">
-  <!-- Add a live preview GIF or image if available -->
-  <img src="https://github.com/codingFrog7/invecade/assets/your-demo.gif" alt="Invecade Preview" width="500"/>
-</p>
+🎮 **[Play Invecade Now](https://codingfrog7.github.io/invecade/)**
 
 ---
 
-## 🚀 Live Demo
+## 🕹️ Controls
 
-👉 **Play Online:** [Invecade on GitHub Pages](https://codingfrog7.github.io/invecade)
-
----
-
-## 🕹️ Features
-
-- 🎨 Retro-style visuals and smooth animations
-- 🔁 Infinite gameplay loop for high scores
-- ⚡ Fast loading and responsive controls
-- 💡 Clean and modular code for easy editing
+| Action     | Key             |
+|------------|-----------------|
+| Move Left  | ← / A           |
+| Move Right | → / D           |
+| Shoot      | ↑ / Space       |
 
 ---
 
-## 📁 Project Structure
+## 🌟 Features
 
+- Fast-paced endless shooting
+- Score tracking and enemy spawning
+- Clean and lightweight vanilla JavaScript
+- Minimalist green-on-black retro theme
+
+---
+
+## 📁 Tech Stack
+
+- **HTML5 Canvas**
+- **CSS3**
+- **Vanilla JavaScript**
+
+---
+
+## 🛠️ How to Run Locally
+
+```bash
+git clone https://github.com/codingFrog7/invecade.git
+cd invecade
+open index.html in your browser
